@@ -1,0 +1,128 @@
+    .nav item{
+      color:yellowgreen ;
+    }  
+    .navbar{
+  background-color: black;
+}
+.navbar-toggler{
+  color: #3cba54;
+  background-color: rgb(219, 184, 220);;
+}
+    .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .carousel-caption h3{
+    margin-bottom: 80px;
+  }
+ 
+  .guest-rooms{
+    margin-top: 20px;
+  }
+ .gu{
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#E2F516;
+ }
+ .image-text{
+  margin-top: 30px;
+ }
+.food{
+  border-radius: 10px;
+}
+.pool{
+  border-radius: 10px;
+}
+.image-texttwo{
+  margin-top: 30px;
+}
+.image-textthree{
+  margin: 30px;
+}
+.park{
+  border-radius: 10px;
+}
+.free-protwo{
+  margin-top: 40px;
+}
+
+.testimonial h1{
+  text-align: center;
+
+
+}
+.testimonial{
+  background-image: url(../bootstrap/images/cleintBg.jpg);
+  background-size: cover;
+  margin-top: 30px;
+}
+
+
+
+
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container1 {
+      text-align: center;
+  }
+  .container1 img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+ 
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+ 
+  color:#4267B2;
+}
+.fa-google {
+  color:#3cba54;
+}
+.fa-linkedin {
+  color:#0A66C2;
+}
+.fa-instagram {
+  color:#feda75;
+}
+.mahesh{
+  float: righ;
+}

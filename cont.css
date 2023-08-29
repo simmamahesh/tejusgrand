@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: square;
+    font-family: 'Poppins';
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    background:url(../bootstrap/images/rooms/contbg.webp);
+    background-size: cover;
+  }
+  .header{
+    position: relative;
+    max-width: 400px;
+    background: rgba(206, 131, 166, 0.322) ;
+    padding: 25px;
+    border-radius: 5px;
+    /*right: 30%;
+    
+   /* box-shadow: 0 5px 10px rgba(252, 135, 135, 0.712);*/
+  }
+  .input-box input{
+    margin: 25px,0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(226, 19, 19, 0.664);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #111111;
+    
+  }
+.btn{
+       width: 25%;
+       height: 25px;
+      
+       background: #c72121;
+        
+        border-radius: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(132, 201, 224);
+  }
+}
+  

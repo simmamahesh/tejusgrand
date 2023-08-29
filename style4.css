@@ -1,0 +1,57 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+    
+    }
+    
+
+    
+    body {
+    
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: url(../bootstrap/images/rooms/singleBed.jpg);
+    background-size: cover;
+    background-color: aquamarine;
+}
+    
+    
+.header{
+width: 420px;
+/*background: rgb(65, 63, 63);*/
+
+color: #000000;
+text-align: center;
+}
+
+    .input-box input {
+        margin: 20px 0;
+     width: 80%;
+     height: 80%;
+     background: transparent;
+     border: none;
+     outline: none; 
+     border: 2px solid rgba(226, 19, 19, 0.938);
+     border-radius: 30px;
+     font-size: 16px;
+     color: #fff;
+     padding: 20px 45px 20px 20px;
+    }
+    .input-box input::placeholder {
+     color: #fff;
+
+    }
+    .btn {
+     width: 30%;
+    height: 45px ;
+        background: #ffffff;
+        outline:none ;
+        outline: none;
+        border-radius: 40px;
+
+
+    }

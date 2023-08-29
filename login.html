@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login form </title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style4.css'>
+    
+    
+</head>
+<body>
+ <div class="header"> 
+    <h1>Login</h1>
+    <form action="index.html" onsubmit="return myvalidate(this)">
+      <div class="input-box"> 
+        <input type="text" name="username" placeholder="username" required>
+      </div>
+      <div class="input-box"> 
+        <input type="password" name="password" placeholder="password" required>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </form>
+    <div class="register"> 
+      <p>Don't have an account? <a href="#">Register</a></p>
+    </div>
+  </div>
+  <script> 
+    function myvalidate(form) {
+      var userName = form.username.value;
+      var password = form.password.value;
+      if(userName.length <=2 ) {
+        alert("You must enter a valid username");
+        return false;
+      }
+      if(password.length <=2) {
+        alert("You must enter a valid password");
+        return false;
+      }         
+      return true; 
+    }
+  </script>
+   
+</body>
+</html>

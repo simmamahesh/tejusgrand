@@ -1,0 +1,79 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url(../bootstrap/images/rooms/Superior.jpg);
+  background-size: cover;
+}
+.header{
+  position: relative;
+  max-width: 430px;
+ 
+  padding: 34px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+ .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  font-size: 15px;
+  
+}
+
+.policy{
+  display: flex;
+  align-items: center;
+}
+
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #3365ee;
+  cursor: pointer;
+}
+  @media (max-width: 768px) {
+    .input-box {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .input-box input[type="text"],
+    .input-box input[type="password"],
+    textarea,
+    select,
+    .input-box input[type="number"] {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .input-box input[type="text"][size="2"] {
+      width: auto;
+    }
+
+    .button input[type="Submit"] {
+      width: 100%;
+    }
+
+    .header {
+      padding: 20px;
+    }
+  }
+
+
+  

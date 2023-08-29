@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+    <title> CONTACT form</title> 
+    <link rel="stylesheet" href="cont.css">
+   </head>
+<body>
+
+  <div class="header">
+    <h3>contact us</h3>
+
+      <script>
+    function validateForm() {
+      var name = document.forms["contactForm"]["name"].value;
+      var mail = document.forms["contactForm"]["mail"].value;
+      var queries = document.forms["contactForm"]["queries"].value;
+
+      if (name == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      if (!validateEmail(mail)) {
+        alert("Invalid email format");
+        return false;
+      }
+
+      return true;
+      
+      if (queries == "") {
+        alert("Subject/Queries must be filled out");
+        return false;
+      }
+    }
+    function validateEmail(mail) {
+    
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailPattern.test(email);
+    }
+  </script>
+         <form action="sucess.html" onsubmit="return validateForm()">
+      <div class="input-box">
+        
+        <label> Name  </label>&nbsp;
+        <input type="text" placeholder="Enter name" required>
+        </div>
+        <div class="col">
+      <div class="input-box">
+        <label>Mail  </label>&nbsp;&nbsp;&nbsp;
+        <input type="email" placeholder="Enter  mail" required>
+      </div>
+      </div>
+       <div class="input-box">
+        <label>subject  </label>
+        <input type="text" col="" placeholder="Enter  queries" required>
+      </div>
+
+        <input type="Submit" class="btn" value="Submit">
+      
+      
+    </form>
+  </div>
+</body>
+</html>
